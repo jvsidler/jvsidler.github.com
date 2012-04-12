@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leadborghini : Jim Sidler : Ruby on Rails Software Engineer
+title: Leadborghini
 description: Ruby on Rails project built to digest education leads via a SOAP API.
 group: project
 ---

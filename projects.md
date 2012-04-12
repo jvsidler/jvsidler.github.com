@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects : Jim Sidler : Ruby on Rails Software Engineer
+title: Projects
 tagline: A list of all the projects I can post publicly
 group: navigation
 ---
