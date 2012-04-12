@@ -7,8 +7,8 @@ description: "Welcome page for Jim Sidler's personal website."
 {% include JB/setup %}
 
 * I think the internet and the world wide web are the coolest things since landing on the moon.
-* I accept gifts on all occasions and non-occasions : [hook me up](http://www.amazon.com/gp/registry/wishlist/1HD569IK8VEK4)
-* Contact me here: jim at jimsidler dot com
+* I accept gifts on all occasions but no occasion is required : [hook me up](http://www.amazon.com/gp/registry/wishlist/1HD569IK8VEK4)
+* Contact me via email with: jim at jimsidler dot com
 * Find me here: 
 [![Working With Rails icon](/assets/images/icon-wwr.png "Working With Rails")](http://www.workingwithrails.com/person/17550-jim-sidler)
 [![Linked In icon](/assets/images/icon-linkedin.png "LinkedIn")](http://www.linkedin.com/in/jimsidler)
