@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Edgar and Zackary
+title: Edgar and Zackary : Jim Sidler : Ruby on Rails Software Engineer
 description: Ruby on Rails ecommerce site built to showcase a children's ministry
 group: project
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Custom CMS
+title: Custom CMS : Jim Sidler : Ruby on Rails Software Engineer
 description: Ruby on Rails project built to manage all marketing site content for FreeLife.com
 group: project
 ---

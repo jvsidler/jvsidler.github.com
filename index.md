@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Welcome"
+title: "Welcome : Jim Sidler : Ruby on Rails Software Engineer"
 tagline: "I am a software engineer building web applications in ruby and other advanced technologies"
 description: "Welcome page for Jim Sidler's personal website."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Retirement Years
+title: Retirement Years : Jim Sidler : Ruby on Rails Software Engineer
 description: Ruby on Rails project to create retirement community lead generation
 group: project
 ---

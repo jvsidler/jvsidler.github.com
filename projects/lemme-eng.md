@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lemme Engineering, Inc.
+title: Lemme Engineering, Inc. : Jim Sidler : Ruby on Rails Software Engineer
 description: Ruby on Rails website for a civil engineering firm in Phoenix, Arizona.
 group: project
 ---
