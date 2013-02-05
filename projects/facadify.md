@@ -8,4 +8,6 @@ group: project
 
 [Home](http://jimsidler.com) : [All Projects](http://jimsidler.com/projects.html)
 
-Façadify is a Rails 3.2.x site built for the Shopify.com app store. See the app store listing at [http://apps.shopify.com/facadify](http://apps.shopify.com/facadify)
+Façadify is a Rails 3.2.x site built for the Shopify.com app store. Click the banner below to see the app store listing
+
+[![http://apps.shopify.com/facadify](/assets/images/shopify-appstore-featured.jpg "Façadify App Banner")](http://apps.shopify.com/facadify)
