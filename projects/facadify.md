@@ -8,8 +8,8 @@ group: project
 
 [Home](http://jimsidler.com) : [All Projects](http://jimsidler.com/projects.html)
 
-Façadify is a Rails 3.2.x application built for the ["Shopify.com"](http://www.shopify.com/?ref=jimsidler) ["app store"](http://apps.shopify.com/?ref=jimsidler). Whats that? You've never heard of Shopify? For shame! If you want to sell anything online please [(/assets/images/shopify_banner_728x90.jpg) "Shopify App Store Banner"](http://www.shopify.com/?ref=jimsidler).
+Façadify is a Rails 3.2.x application built for the ["Shopify.com"](http://www.shopify.com/?ref=jimsidler) ["app store"](http://apps.shopify.com/?ref=jimsidler). Whats that? You've never heard of Shopify? For shame! If you want to sell anything online please [![http://apps.shopify.com/facadify?ref=jimsidler](/assets/images/shopify_banner_728x90.jpg) "Shopify App Store Banner"](http://www.shopify.com/?ref=jimsidler).
 
 Click the banner below if you want to see what Façadify can do over at app store listing
 
-[![http://apps.shopify.com/facadify](/assets/images/shopify-appstore-featured.jpg "Façadify App Banner")](http://apps.shopify.com/facadify?ref=jimsidler)
+[![http://apps.shopify.com/facadify?ref=jimsidler](/assets/images/shopify-appstore-featured.jpg "Façadify App Banner")](http://apps.shopify.com/facadify?ref=jimsidler)
