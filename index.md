@@ -9,7 +9,8 @@ description: "Welcome page for Jim Sidler's personal website."
 * I think the internet and the world wide web are the coolest things since landing on the moon.
 * I accept gifts on all occasions but no occasion is required : [hook me up](http://www.amazon.com/gp/registry/wishlist/1HD569IK8VEK4)
 * Contact me via email with: jim at jimsidler dot com
-<!-- * Find me here: 
+* I receive a lot of requests for custom shopping cart solutions. I always suggest Shopify so click on the banner at the top of the page to get started with a free trial!
+<!-- * Find me here:
 [![Working With Rails icon](/assets/images/icon-wwr.png "Working With Rails")](http://www.workingwithrails.com/person/17550-jim-sidler)
 [![Linked In icon](/assets/images/icon-linkedin.png "LinkedIn")](http://www.linkedin.com/in/jimsidler)
 [![Github icon](/assets/images/icon-git.png "Github")](http://github.com/jvsidler)
