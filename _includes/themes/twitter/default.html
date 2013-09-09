@@ -76,5 +76,11 @@
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+
+    <script>
+        document.onclick = function(){
+          _gaq.push(['_trackEvent', 'Facadify', 'Click', 'Heatmap']);
+        };
+    </script>
   </body>
 </html>
