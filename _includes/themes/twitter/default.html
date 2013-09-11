@@ -78,8 +78,9 @@
     {% include JB/analytics %}
 
     <script>
-        document.onclick = function(){
-          _gaq.push(['_trackEvent', 'Facadify', 'Click', 'Heatmap']);
+        document.onclick = function(e){
+          console.log(e.clientX + "." + e.clientY)
+          _gaq.push(['_trackEvent', 'Facadify', 'Click', 'Heatmap', e.clientX + "." + e.clientY]);
         };
     </script>
   </body>
