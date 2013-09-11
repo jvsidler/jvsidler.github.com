@@ -79,8 +79,7 @@
 
     <script>
         document.onclick = function(e){
-          console.log(e.clientX)
-          _gaq.push(['_trackEvent', 'Facadify', 'Click', 'Heatmap', e.clientX]);
+          _gaq.push(['_trackEvent', 'Facadify', 'Click', e.clientX + "." + e.clientY]);
         };
     </script>
   </body>
