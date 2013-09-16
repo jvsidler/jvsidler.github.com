@@ -77,5 +77,10 @@
 
     {% include JB/analytics %}
 
+    <script>
+        document.onclick = function(e){
+          _gaq.push(['_trackEvent', 'Facadify', 'Click', e.clientX + "." + e.clientY]);
+        };
+    </script>
   </body>
 </html>
