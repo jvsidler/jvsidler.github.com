@@ -12,4 +12,4 @@ Façadify is a Rails 3.2.x application built for the [Shopify](http://www.shopif
 
 Façadify makes implementing [Google Content Experiments](https://support.google.com/analytics/bin/answer.py?hl=en&answer=1745147&topic=1745207&rd=1) dead simple. Google got rid of Web Optimizer in 2012 and replaced it with Content Experiments which allows implementing [multivariate testing](http://en.wikipedia.org/wiki/Multivariate_testing) for any page on a website. That just means you can test up to six different versions of any page to find out which version performs the best, according to your desired outcome. Click the banner below to see the app store listing if you want a more detailed explanation:
 
-[![http://apps.shopify.com/facadify?ref=jimsidler](/assets/images/shopify-appstore-featured.jpg "Façadify App Banner")](http://apps.shopify.com/facadify?ref=jimsidler)
+[![http://apps.shopify.com/facadify?ref=jimsidler](/assets/images/shopify-appstore-featured-v4.jpg "Façadify App Banner")](http://apps.shopify.com/facadify?ref=jimsidler)
