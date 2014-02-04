@@ -18,7 +18,7 @@ Hands down, they the three pictured below. I am an affiliate for each one but it
 
 <div class="row">
   <div class="span4">
-    <a href="http://www.shopify.com/?ref=jimsidler" title="Sell online with Shopify!"><img src="/assets/images/shopify_banner_250x250.jpg" alt="Shopify App Store Banner" /></a>
+    <a href="http://www.shopify.com/?ref=jim-sidler" title="Sell online with Shopify!"><img src="/assets/images/shopify_banner_250x250.jpg" alt="Shopify App Store Banner" /></a>
   </div>
   <div class="span4">
     <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting"><img src="/assets/images/digitalocean.png" alt="Digital Ocean Logo" /></a>
