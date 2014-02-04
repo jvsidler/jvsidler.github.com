@@ -10,7 +10,7 @@ description: "Welcome page for Jim Sidler's personal website."
 * I accept gifts on all occasions but no occasion is required : [hook me up](http://www.amazon.com/gp/registry/wishlist/1HD569IK8VEK4)
 * Contact me via email with: jim at jimsidler dot com
 * The top three requests I get when someone finds out that I build web software are:
-  1. What <a href="http://www.shopify.com/?ref=jimsidler" title="Sell online with Shopify!">online store</a> do you recommend?
+  1. What <a href="http://www.shopify.com/?ref=jim-sidler" title="Sell online with Shopify!">online store</a> do you recommend?
   2. What is the best <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting">web host</a>?
   3. What is your favorite <a href="http://db.tt/08XgsvSf" title="Dropbox: Cloud file storage">web app</a>?
 
