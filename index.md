@@ -10,21 +10,26 @@ description: "Welcome page for Jim Sidler's personal website."
 * I accept gifts on all occasions but no occasion is required : [hook me up](http://www.amazon.com/gp/registry/wishlist/1HD569IK8VEK4)
 * Contact me via email with: jim at jimsidler dot com or socially with the icons at the top of the page.
 * The top three requests I get when someone finds out that I build web software are:
-  1. What <a href="http://www.shopify.com/?ref=jim-sidler" title="Sell online with Shopify!">online store</a> do you recommend?
-  2. What is the best <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting">web host</a>?
-  3. What is your favorite <a href="http://db.tt/08XgsvSf" title="Dropbox: Cloud file storage">web app</a>?
+  1. Where should I go to <a href="http://www.shopify.com/?ref=jim-sidler" title="Sell online with Shopify!">sell online</a>?
+  2. Where should I <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting">host my website</a>?
+  3. What is your most used <a href="http://db.tt/08XgsvSf" title="Dropbox: Cloud file storage">web app</a>?
 
-Hands down, they the three pictured below. I am an affiliate for each one but its because I truly use them myself and refer them to everyone. Click on the images below to sign up and please, feel free to reach out if you need any help.
+Hands down, they the three pictured below. I am an affiliate for each one but this way you can get a discount or bonus by using my link, we both win!
+
+If you want to pick my brain, feel free to reach out by contacting me via <a href='http://clarity.fm'>Clarity.fm</a>.
 
 <div class="row">
-  <div class="span4">
+  <div class="span3">
     <a href="http://www.shopify.com/?ref=jim-sidler" title="Sell online with Shopify!"><img src="/assets/images/shopify_banner_250x250.jpg" alt="Shopify App Store Banner" /></a>
   </div>
-  <div class="span4">
+  <div class="span3">
     <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting"><img src="/assets/images/digitalocean.png" alt="Digital Ocean Logo" /></a>
   </div>
-  <div class="span4">
+  <div class="span3">
     <a href="http://db.tt/08XgsvSf" title="Dropbox: Cloud file storage"><img src="/assets/images/dropbox_logo.png" alt="Your stuff, anywhere" /></a>
+  </div>
+  <div class="span3">
+    <iframe class="clarity-widget" data-c-id="29328" data-c-width="220" frameborder="0"></iframe>
   </div>
 </div>
 
