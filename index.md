@@ -14,7 +14,7 @@ description: "Welcome page for Jim Sidler's personal website."
   2. Where should I <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting">host my website</a>?
   3. What is your most used <a href="http://db.tt/08XgsvSf" title="Dropbox: Cloud file storage">web app</a>?
 
-Hands down, they the three pictured below. I am an affiliate for each one but this way you can get a discount or bonus by using my link, we both win!
+Hands down, they are the three pictured below. I am an affiliate for each one but this way you can get a discount or bonus by using my link, we both win!
 
 If you want to pick my brain, feel free to reach out by contacting me via <a href='http://clarity.fm'>Clarity.fm</a>.
 
