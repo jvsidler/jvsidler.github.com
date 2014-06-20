@@ -20,7 +20,7 @@ If you want to pick my brain, feel free to reach out by contacting me via <a hre
 
 <div class="row">
   <div class="span3">
-    <a href="http://www.shopify.com/?ref=jim-sidler" title="Sell online with Shopify!"><img src="/assets/images/shopify_banner_250x250.jpg" alt="Shopify App Store Banner" /></a>
+    <a href="http://www.shopify.com/?ref=fivethrive" title="Sell online with Shopify!"><img src="/assets/images/shopify_banner_250x250.jpg" alt="Shopify App Store Banner" /></a>
   </div>
   <div class="span3">
     <a href="https://www.digitalocean.com/?refcode=1ae5c972d80e" title="Digital Ocean Hosting"><img src="/assets/images/digitalocean.png" alt="Digital Ocean Logo" /></a>
