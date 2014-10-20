@@ -6,6 +6,7 @@ description: "Welcome page for Jim Sidler's personal website."
 ---
 {% include JB/setup %}
 
+* Find me at <a href="http://fivethrive.com">Five Thrive</a>
 * I think the internet and the world wide web are the coolest things since landing on the moon.
 * I accept gifts on all occasions but no occasion is required : [hook me up](http://www.amazon.com/gp/registry/wishlist/1HD569IK8VEK4)
 * Contact me via email with: jim at jimsidler dot com or socially with the icons at the top of the page.
