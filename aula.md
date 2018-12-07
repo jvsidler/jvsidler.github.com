@@ -1,4 +1,6 @@
-Jim Sidler - VP Engineering at Aula      body, h1 { font-family: "Raleway", sans-serif } body, html { height: 100% } .bgimg { min-height: 100%; background-color: black; }    window.dataLayer = window.dataLayer || \[\]; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-10763510-1');
+---
+layout: index
+---
 
 Hello Aula!
 ===========

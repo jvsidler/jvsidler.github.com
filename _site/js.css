@@ -1,0 +1,1671 @@
+/* Extract from W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
+
+html {
+  box-sizing: border-box
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block
+}
+
+audio, canvas, progress, video {
+  display: inline-block
+}
+
+progress {
+  vertical-align: baseline
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden], template {
+  display: none
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+  outline-width: 0
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+dfn {
+  font-style: italic
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+small {
+  font-size: 80%
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -0.25em
+}
+
+sup {
+  top: -0.5em
+}
+
+figure {
+  margin: 1em 40px
+}
+
+img {
+  border-style: none
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+button, input, select, textarea {
+  font: inherit;
+  margin: 0
+}
+
+optgroup {
+  font-weight: bold
+}
+
+button, input {
+  overflow: visible
+}
+
+button, select {
+  text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em
+}
+
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+textarea {
+  overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+  padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+/* End extract */
+
+html, body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5
+}
+
+html {
+  overflow-x: hidden
+}
+
+h1 {
+  font-size: 36px
+}
+
+h2 {
+  font-size: 30px
+}
+
+h3 {
+  font-size: 24px
+}
+
+h4 {
+  font-size: 20px
+}
+
+h5 {
+  font-size: 18px
+}
+
+h6 {
+  font-size: 16px
+}
+
+.js-serif {
+  font-family: serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0
+}
+
+.js-wide {
+  letter-spacing: 4px
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0
+}
+
+.js-image {
+  max-width: 100%;
+  height: auto
+}
+
+img {
+  vertical-align: middle
+}
+
+a {
+  color: inherit
+}
+
+.js-table, .js-table-all {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table
+}
+
+.js-table-all {
+  border: 1px solid #ccc
+}
+
+.js-bordered tr, .js-table-all tr {
+  border-bottom: 1px solid #ddd
+}
+
+.js-striped tbody tr:nth-child(even) {
+  background-color: #f1f1f1
+}
+
+.js-table-all tr:nth-child(odd) {
+  background-color: #fff
+}
+
+.js-table-all tr:nth-child(even) {
+  background-color: #f1f1f1
+}
+
+.js-hoverable tbody tr:hover, .js-ul.js-hoverable li:hover {
+  background-color: #ccc
+}
+
+.js-centered tr th, .js-centered tr td {
+  text-align: center
+}
+
+.js-table td, .js-table th, .js-table-all td, .js-table-all th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top
+}
+
+.js-table th:first-child, .js-table td:first-child, .js-table-all th:first-child, .js-table-all td:first-child {
+  padding-left: 16px
+}
+
+.js-btn, .js-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.js-btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.js-btn, .js-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.js-disabled, .js-btn:disabled, .js-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3
+}
+
+.js-disabled *, :disabled * {
+  pointer-events: none
+}
+
+.js-btn.js-disabled:hover, .js-btn:disabled:hover {
+  box-shadow: none
+}
+
+.js-badge, .js-tag {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center
+}
+
+.js-badge {
+  border-radius: 50%
+}
+
+.js-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0
+}
+
+.js-ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd
+}
+
+.js-ul li:last-child {
+  border-bottom: none
+}
+
+.js-tooltip, .js-display-container {
+  position: relative
+}
+
+.js-tooltip .js-text {
+  display: none
+}
+
+.js-tooltip:hover .js-text {
+  display: inline-block
+}
+
+.js-ripple:active {
+  opacity: 0.5
+}
+
+.js-ripple {
+  transition: opacity 0s
+}
+
+.js-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%
+}
+
+.js-select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc
+}
+
+.js-dropdown-click, .js-dropdown-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer
+}
+
+.js-dropdown-hover:hover .js-dropdown-content {
+  display: block
+}
+
+.js-dropdown-hover:first-child, .js-dropdown-click:hover {
+  background-color: #ccc;
+  color: #000
+}
+
+.js-dropdown-hover:hover>.js-button:first-child, .js-dropdown-click:hover>.js-button:first-child {
+  background-color: #ccc;
+  color: #000
+}
+
+.js-dropdown-content {
+  cursor: auto;
+  color: #000;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 0;
+  z-index: 1
+}
+
+.js-check, .js-radio {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 6px
+}
+
+.js-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed!important;
+  z-index: 1;
+  overflow: auto
+}
+
+.js-bar-block .js-dropdown-hover, .js-bar-block .js-dropdown-click {
+  width: 100%
+}
+
+.js-bar-block .js-dropdown-hover .js-dropdown-content, .js-bar-block .js-dropdown-click .js-dropdown-content {
+  min-width: 100%
+}
+
+.js-bar-block .js-dropdown-hover .js-button, .js-bar-block .js-dropdown-click .js-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px
+}
+
+.js-main, #main {
+  transition: margin-left .4s
+}
+
+.js-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+.js-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px
+}
+
+.js-bar {
+  width: 100%;
+  overflow: hidden
+}
+
+.js-center .js-bar {
+  display: inline-block;
+  width: auto
+}
+
+.js-bar .js-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0
+}
+
+.js-bar .js-dropdown-hover, .js-bar .js-dropdown-click {
+  position: static;
+  float: left
+}
+
+.js-bar .js-button {
+  white-space: normal
+}
+
+.js-bar-block .js-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0
+}
+
+.js-bar-block.js-center .js-bar-item {
+  text-align: center
+}
+
+.js-block {
+  display: block;
+  width: 100%
+}
+
+.js-responsive {
+  display: block;
+  overflow-x: auto
+}
+
+.js-container:after, .js-container:before, .js-panel:after, .js-panel:before, .js-row:after, .js-row:before, .js-row-padding:after, .js-row-padding:before, .js-cell-row:before, .js-cell-row:after, .js-clear:after, .js-clear:before, .js-bar:before, .js-bar:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.js-col, .js-half, .js-third, .js-twothird, .js-threequarter, .js-quarter {
+  float: left;
+  width: 100%
+}
+
+.js-col.s1 {
+  width: 8.33333%
+}
+
+.js-col.s2 {
+  width: 16.66666%
+}
+
+.js-col.s3 {
+  width: 24.99999%
+}
+
+.js-col.s4 {
+  width: 33.33333%
+}
+
+.js-col.s5 {
+  width: 41.66666%
+}
+
+.js-col.s6 {
+  width: 49.99999%
+}
+
+.js-col.s7 {
+  width: 58.33333%
+}
+
+.js-col.s8 {
+  width: 66.66666%
+}
+
+.js-col.s9 {
+  width: 74.99999%
+}
+
+.js-col.s10 {
+  width: 83.33333%
+}
+
+.js-col.s11 {
+  width: 91.66666%
+}
+
+.js-col.s12 {
+  width: 99.99999%
+}
+
+@media (min-width:601px) {
+  .js-col.m1 {
+    width: 8.33333%
+  }
+  .js-col.m2 {
+    width: 16.66666%
+  }
+  .js-col.m3, .js-quarter {
+    width: 24.99999%
+  }
+  .js-col.m4, .js-third {
+    width: 33.33333%
+  }
+  .js-col.m5 {
+    width: 41.66666%
+  }
+  .js-col.m6, .js-half {
+    width: 49.99999%
+  }
+  .js-col.m7 {
+    width: 58.33333%
+  }
+  .js-col.m8, .js-twothird {
+    width: 66.66666%
+  }
+  .js-col.m9, .js-threequarter {
+    width: 74.99999%
+  }
+  .js-col.m10 {
+    width: 83.33333%
+  }
+  .js-col.m11 {
+    width: 91.66666%
+  }
+  .js-col.m12 {
+    width: 99.99999%
+  }
+}
+
+@media (min-width:993px) {
+  .js-col.l1 {
+    width: 8.33333%
+  }
+  .js-col.l2 {
+    width: 16.66666%
+  }
+  .js-col.l3 {
+    width: 24.99999%
+  }
+  .js-col.l4 {
+    width: 33.33333%
+  }
+  .js-col.l5 {
+    width: 41.66666%
+  }
+  .js-col.l6 {
+    width: 49.99999%
+  }
+  .js-col.l7 {
+    width: 58.33333%
+  }
+  .js-col.l8 {
+    width: 66.66666%
+  }
+  .js-col.l9 {
+    width: 74.99999%
+  }
+  .js-col.l10 {
+    width: 83.33333%
+  }
+  .js-col.l11 {
+    width: 91.66666%
+  }
+  .js-col.l12 {
+    width: 99.99999%
+  }
+}
+
+.js-content {
+  max-width: 980px;
+  margin: auto
+}
+
+.js-rest {
+  overflow: hidden
+}
+
+.js-cell-row {
+  display: table;
+  width: 100%
+}
+
+.js-cell {
+  display: table-cell
+}
+
+.js-cell-top {
+  vertical-align: top
+}
+
+.js-cell-middle {
+  vertical-align: middle
+}
+
+.js-cell-bottom {
+  vertical-align: bottom
+}
+
+.js-hide {
+  display: none!important
+}
+
+.js-show-block, .js-show {
+  display: block!important
+}
+
+.js-show-inline-block {
+  display: inline-block!important
+}
+
+@media (max-width:600px) {
+  .js-modal-content {
+    margin: 0 10px;
+    width: auto!important
+  }
+  .js-modal {
+    padding-top: 30px
+  }
+  .js-dropdown-hover.js-mobile .js-dropdown-content, .js-dropdown-click.js-mobile .js-dropdown-content {
+    position: relative
+  }
+  .js-hide-small {
+    display: none!important
+  }
+  .js-mobile {
+    display: block;
+    width: 100%!important
+  }
+  .js-bar-item.js-mobile, .js-dropdown-hover.js-mobile, .js-dropdown-click.js-mobile {
+    text-align: center
+  }
+  .js-dropdown-hover.js-mobile, .js-dropdown-hover.js-mobile .js-btn, .js-dropdown-hover.js-mobile .js-button, .js-dropdown-click.js-mobile, .js-dropdown-click.js-mobile .js-btn, .js-dropdown-click.js-mobile .js-button {
+    width: 100%
+  }
+}
+
+@media (max-width:768px) {
+  .js-modal-content {
+    width: 500px
+  }
+  .js-modal {
+    padding-top: 50px
+  }
+}
+
+@media (min-width:993px) {
+  .js-modal-content {
+    width: 900px
+  }
+  .js-hide-large {
+    display: none!important
+  }
+  .js-sidebar.js-collapse {
+    display: block!important
+  }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+  .js-hide-medium {
+    display: none!important
+  }
+}
+
+@media (max-width:992px) {
+  .js-sidebar.js-collapse {
+    display: none
+  }
+  .js-main {
+    margin-left: 0!important;
+    margin-right: 0!important
+  }
+}
+
+.js-top, .js-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1
+}
+
+.js-top {
+  top: 0
+}
+
+.js-bottom {
+  bottom: 0
+}
+
+.js-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2
+}
+
+.js-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.js-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.js-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0
+}
+
+.js-display-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0
+}
+
+.js-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.js-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%)
+}
+
+.js-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%)
+}
+
+.js-display-topmiddle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%)
+}
+
+.js-display-bottommiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%)
+}
+
+.js-display-container:hover .js-display-hover {
+  display: block
+}
+
+.js-display-container:hover span.js-display-hover {
+  display: inline-block
+}
+
+.js-display-hover {
+  display: none
+}
+
+.js-display-position {
+  position: absolute
+}
+
+.js-circle {
+  border-radius: 50%
+}
+
+.js-round-small {
+  border-radius: 2px
+}
+
+.js-round, .js-round-medium {
+  border-radius: 4px
+}
+
+.js-round-large {
+  border-radius: 8px
+}
+
+.js-round-xlarge {
+  border-radius: 16px
+}
+
+.js-round-xxlarge {
+  border-radius: 32px
+}
+
+.js-row-padding, .js-row-padding>.js-half, .js-row-padding>.js-third, .js-row-padding>.js-twothird, .js-row-padding>.js-threequarter, .js-row-padding>.js-quarter, .js-row-padding>.js-col {
+  padding: 0 8px
+}
+
+.js-container, .js-panel {
+  padding: 0.01em 16px
+}
+
+.js-panel {
+  margin-top: 16px;
+  margin-bottom: 16px
+}
+
+.js-code, .js-codespan {
+  font-family: Consolas, "courier new";
+  font-size: 16px
+}
+
+.js-code {
+  width: auto;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-left: 4px solid #4CAF50;
+  word-wrap: break-word
+}
+
+.js-codespan {
+  color: crimson;
+  background-color: #f1f1f1;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 110%
+}
+
+.js-card, .js-card-2 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.js-card-4, .js-hover-shadow:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.js-spin {
+  animation: js-spin 2s infinite linear
+}
+
+@keyframes js-spin {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(359deg)
+  }
+}
+
+.js-animate-fading {
+  animation: fading 10s infinite
+}
+
+@keyframes fading {
+  0% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+.js-animate-opacity {
+  animation: opac 0.8s
+}
+
+@keyframes opac {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.js-animate-top {
+  position: relative;
+  animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+.js-animate-left {
+  position: relative;
+  animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0
+  }
+  to {
+    left: 0;
+    opacity: 1
+  }
+}
+
+.js-animate-right {
+  position: relative;
+  animation: animateright 0.4s
+}
+
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0
+  }
+  to {
+    right: 0;
+    opacity: 1
+  }
+}
+
+.js-animate-bottom {
+  position: relative;
+  animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0
+  }
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+.js-animate-zoom {
+  animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.js-animate-input {
+  transition: width 0.4s ease-in-out
+}
+
+.js-animate-input:focus {
+  width: 100%!important
+}
+
+.js-opacity, .js-hover-opacity:hover {
+  opacity: 0.60
+}
+
+.js-opacity-off, .js-hover-opacity-off:hover {
+  opacity: 1
+}
+
+.js-opacity-max {
+  opacity: 0.25
+}
+
+.js-opacity-min {
+  opacity: 0.75
+}
+
+.js-greyscale-max, .js-grayscale-max, .js-hover-greyscale:hover, .js-hover-grayscale:hover {
+  filter: grayscale(100%)
+}
+
+.js-greyscale, .js-grayscale {
+  filter: grayscale(75%)
+}
+
+.js-greyscale-min, .js-grayscale-min {
+  filter: grayscale(50%)
+}
+
+.js-sepia {
+  filter: sepia(75%)
+}
+
+.js-sepia-max, .js-hover-sepia:hover {
+  filter: sepia(100%)
+}
+
+.js-sepia-min {
+  filter: sepia(50%)
+}
+
+.js-tiny {
+  font-size: 10px!important
+}
+
+.js-small {
+  font-size: 12px!important
+}
+
+.js-medium {
+  font-size: 15px!important
+}
+
+.js-large {
+  font-size: 18px!important
+}
+
+.js-xlarge {
+  font-size: 24px!important
+}
+
+.js-xxlarge {
+  font-size: 36px!important
+}
+
+.js-xxxlarge {
+  font-size: 48px!important
+}
+
+.js-jumbo {
+  font-size: 64px!important
+}
+
+.js-left-align {
+  text-align: left!important
+}
+
+.js-right-align {
+  text-align: right!important
+}
+
+.js-justify {
+  text-align: justify!important
+}
+
+.js-center {
+  text-align: center!important
+}
+
+.js-border-0 {
+  border: 0!important
+}
+
+.js-border {
+  border: 1px solid #ccc!important
+}
+
+.js-border-top {
+  border-top: 1px solid #ccc!important
+}
+
+.js-border-bottom {
+  border-bottom: 1px solid #ccc!important
+}
+
+.js-border-left {
+  border-left: 1px solid #ccc!important
+}
+
+.js-border-right {
+  border-right: 1px solid #ccc!important
+}
+
+.js-topbar {
+  border-top: 6px solid #ccc!important
+}
+
+.js-bottombar {
+  border-bottom: 6px solid #ccc!important
+}
+
+.js-leftbar {
+  border-left: 6px solid #ccc!important
+}
+
+.js-rightbar {
+  border-right: 6px solid #ccc!important
+}
+
+.js-section, .js-code {
+  margin-top: 16px!important;
+  margin-bottom: 16px!important
+}
+
+.js-margin {
+  margin: 16px!important
+}
+
+.js-margin-top {
+  margin-top: 16px!important
+}
+
+.js-margin-bottom {
+  margin-bottom: 16px!important
+}
+
+.js-margin-left {
+  margin-left: 16px!important
+}
+
+.js-margin-right {
+  margin-right: 16px!important
+}
+
+.js-padding-small {
+  padding: 4px 8px!important
+}
+
+.js-padding {
+  padding: 8px 16px!important
+}
+
+.js-padding-large {
+  padding: 12px 24px!important
+}
+
+.js-padding-16 {
+  padding-top: 16px!important;
+  padding-bottom: 16px!important
+}
+
+.js-padding-24 {
+  padding-top: 24px!important;
+  padding-bottom: 24px!important
+}
+
+.js-padding-32 {
+  padding-top: 32px!important;
+  padding-bottom: 32px!important
+}
+
+.js-padding-48 {
+  padding-top: 48px!important;
+  padding-bottom: 48px!important
+}
+
+.js-padding-64 {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important
+}
+
+.js-left {
+  float: left!important
+}
+
+.js-right {
+  float: right!important
+}
+
+.js-button:hover {
+  color: #000!important;
+  background-color: #ccc!important
+}
+
+.js-transparent, .js-hover-none:hover {
+  background-color: transparent!important
+}
+
+.js-hover-none:hover {
+  box-shadow: none!important
+}
+
+/* Colors */
+
+.js-amber, .js-hover-amber:hover {
+  color: #000!important;
+  background-color: #ffc107!important
+}
+
+.js-aqua, .js-hover-aqua:hover {
+  color: #000!important;
+  background-color: #00ffff!important
+}
+
+.js-blue, .js-hover-blue:hover {
+  color: #fff!important;
+  background-color: #2196F3!important
+}
+
+.js-light-blue, .js-hover-light-blue:hover {
+  color: #000!important;
+  background-color: #87CEEB!important
+}
+
+.js-brown, .js-hover-brown:hover {
+  color: #fff!important;
+  background-color: #795548!important
+}
+
+.js-cyan, .js-hover-cyan:hover {
+  color: #000!important;
+  background-color: #00bcd4!important
+}
+
+.js-blue-grey, .js-hover-blue-grey:hover, .js-blue-gray, .js-hover-blue-gray:hover {
+  color: #fff!important;
+  background-color: #607d8b!important
+}
+
+.js-green, .js-hover-green:hover {
+  color: #fff!important;
+  background-color: #4CAF50!important
+}
+
+.js-light-green, .js-hover-light-green:hover {
+  color: #000!important;
+  background-color: #8bc34a!important
+}
+
+.js-indigo, .js-hover-indigo:hover {
+  color: #fff!important;
+  background-color: #3f51b5!important
+}
+
+.js-khaki, .js-hover-khaki:hover {
+  color: #000!important;
+  background-color: #f0e68c!important
+}
+
+.js-lime, .js-hover-lime:hover {
+  color: #000!important;
+  background-color: #cddc39!important
+}
+
+.js-orange, .js-hover-orange:hover {
+  color: #000!important;
+  background-color: #ff9800!important
+}
+
+.js-deep-orange, .js-hover-deep-orange:hover {
+  color: #fff!important;
+  background-color: #ff5722!important
+}
+
+.js-pink, .js-hover-pink:hover {
+  color: #fff!important;
+  background-color: #e91e63!important
+}
+
+.js-purple, .js-hover-purple:hover {
+  color: #fff!important;
+  background-color: #9c27b0!important
+}
+
+.js-deep-purple, .js-hover-deep-purple:hover {
+  color: #fff!important;
+  background-color: #673ab7!important
+}
+
+.js-red, .js-hover-red:hover {
+  color: #fff!important;
+  background-color: #f44336!important
+}
+
+.js-sand, .js-hover-sand:hover {
+  color: #000!important;
+  background-color: #fdf5e6!important
+}
+
+.js-teal, .js-hover-teal:hover {
+  color: #fff!important;
+  background-color: #009688!important
+}
+
+.js-yellow, .js-hover-yellow:hover {
+  color: #000!important;
+  background-color: #ffeb3b!important
+}
+
+.js-white, .js-hover-white:hover {
+  color: #000!important;
+  background-color: #fff!important
+}
+
+.js-black, .js-hover-black:hover {
+  color: #fff!important;
+  background-color: #000!important
+}
+
+.js-grey, .js-hover-grey:hover, .js-gray, .js-hover-gray:hover {
+  color: #000!important;
+  background-color: #9e9e9e!important
+}
+
+.js-light-grey, .js-hover-light-grey:hover, .js-light-gray, .js-hover-light-gray:hover {
+  color: #000!important;
+  background-color: #f1f1f1!important
+}
+
+.js-dark-grey, .js-hover-dark-grey:hover, .js-dark-gray, .js-hover-dark-gray:hover {
+  color: #fff!important;
+  background-color: #616161!important
+}
+
+.js-pale-red, .js-hover-pale-red:hover {
+  color: #000!important;
+  background-color: #ffdddd!important
+}
+
+.js-pale-green, .js-hover-pale-green:hover {
+  color: #000!important;
+  background-color: #ddffdd!important
+}
+
+.js-pale-yellow, .js-hover-pale-yellow:hover {
+  color: #000!important;
+  background-color: #ffffcc!important
+}
+
+.js-pale-blue, .js-hover-pale-blue:hover {
+  color: #000!important;
+  background-color: #ddffff!important
+}
+
+.js-text-amber, .js-hover-text-amber:hover {
+  color: #ffc107!important
+}
+
+.js-text-aqua, .js-hover-text-aqua:hover {
+  color: #00ffff!important
+}
+
+.js-text-blue, .js-hover-text-blue:hover {
+  color: #2196F3!important
+}
+
+.js-text-light-blue, .js-hover-text-light-blue:hover {
+  color: #87CEEB!important
+}
+
+.js-text-brown, .js-hover-text-brown:hover {
+  color: #795548!important
+}
+
+.js-text-cyan, .js-hover-text-cyan:hover {
+  color: #00bcd4!important
+}
+
+.js-text-blue-grey, .js-hover-text-blue-grey:hover, .js-text-blue-gray, .js-hover-text-blue-gray:hover {
+  color: #607d8b!important
+}
+
+.js-text-green, .js-hover-text-green:hover {
+  color: #4CAF50!important
+}
+
+.js-text-light-green, .js-hover-text-light-green:hover {
+  color: #8bc34a!important
+}
+
+.js-text-indigo, .js-hover-text-indigo:hover {
+  color: #3f51b5!important
+}
+
+.js-text-khaki, .js-hover-text-khaki:hover {
+  color: #b4aa50!important
+}
+
+.js-text-lime, .js-hover-text-lime:hover {
+  color: #cddc39!important
+}
+
+.js-text-orange, .js-hover-text-orange:hover {
+  color: #ff9800!important
+}
+
+.js-text-deep-orange, .js-hover-text-deep-orange:hover {
+  color: #ff5722!important
+}
+
+.js-text-pink, .js-hover-text-pink:hover {
+  color: #e91e63!important
+}
+
+.js-text-purple, .js-hover-text-purple:hover {
+  color: #9c27b0!important
+}
+
+.js-text-deep-purple, .js-hover-text-deep-purple:hover {
+  color: #673ab7!important
+}
+
+.js-text-red, .js-hover-text-red:hover {
+  color: #f44336!important
+}
+
+.js-text-sand, .js-hover-text-sand:hover {
+  color: #fdf5e6!important
+}
+
+.js-text-teal, .js-hover-text-teal:hover {
+  color: #009688!important
+}
+
+.js-text-yellow, .js-hover-text-yellow:hover {
+  color: #d2be0e!important
+}
+
+.js-text-white, .js-hover-text-white:hover {
+  color: #fff!important
+}
+
+.js-text-black, .js-hover-text-black:hover {
+  color: #000!important
+}
+
+.js-text-grey, .js-hover-text-grey:hover, .js-text-gray, .js-hover-text-gray:hover {
+  color: #757575!important
+}
+
+.js-text-light-grey, .js-hover-text-light-grey:hover, .js-text-light-gray, .js-hover-text-light-gray:hover {
+  color: #f1f1f1!important
+}
+
+.js-text-dark-grey, .js-hover-text-dark-grey:hover, .js-text-dark-gray, .js-hover-text-dark-gray:hover {
+  color: #3a3a3a!important
+}
+
+.js-border-amber, .js-hover-border-amber:hover {
+  border-color: #ffc107!important
+}
+
+.js-border-aqua, .js-hover-border-aqua:hover {
+  border-color: #00ffff!important
+}
+
+.js-border-blue, .js-hover-border-blue:hover {
+  border-color: #2196F3!important
+}
+
+.js-border-light-blue, .js-hover-border-light-blue:hover {
+  border-color: #87CEEB!important
+}
+
+.js-border-brown, .js-hover-border-brown:hover {
+  border-color: #795548!important
+}
+
+.js-border-cyan, .js-hover-border-cyan:hover {
+  border-color: #00bcd4!important
+}
+
+.js-border-blue-grey, .js-hover-border-blue-grey:hover, .js-border-blue-gray, .js-hover-border-blue-gray:hover {
+  border-color: #607d8b!important
+}
+
+.js-border-green, .js-hover-border-green:hover {
+  border-color: #4CAF50!important
+}
+
+.js-border-light-green, .js-hover-border-light-green:hover {
+  border-color: #8bc34a!important
+}
+
+.js-border-indigo, .js-hover-border-indigo:hover {
+  border-color: #3f51b5!important
+}
+
+.js-border-khaki, .js-hover-border-khaki:hover {
+  border-color: #f0e68c!important
+}
+
+.js-border-lime, .js-hover-border-lime:hover {
+  border-color: #cddc39!important
+}
+
+.js-border-orange, .js-hover-border-orange:hover {
+  border-color: #ff9800!important
+}
+
+.js-border-deep-orange, .js-hover-border-deep-orange:hover {
+  border-color: #ff5722!important
+}
+
+.js-border-pink, .js-hover-border-pink:hover {
+  border-color: #e91e63!important
+}
+
+.js-border-purple, .js-hover-border-purple:hover {
+  border-color: #9c27b0!important
+}
+
+.js-border-deep-purple, .js-hover-border-deep-purple:hover {
+  border-color: #673ab7!important
+}
+
+.js-border-red, .js-hover-border-red:hover {
+  border-color: #f44336!important
+}
+
+.js-border-sand, .js-hover-border-sand:hover {
+  border-color: #fdf5e6!important
+}
+
+.js-border-teal, .js-hover-border-teal:hover {
+  border-color: #009688!important
+}
+
+.js-border-yellow, .js-hover-border-yellow:hover {
+  border-color: #ffeb3b!important
+}
+
+.js-border-white, .js-hover-border-white:hover {
+  border-color: #fff!important
+}
+
+.js-border-black, .js-hover-border-black:hover {
+  border-color: #000!important
+}
+
+.js-border-grey, .js-hover-border-grey:hover, .js-border-gray, .js-hover-border-gray:hover {
+  border-color: #9e9e9e!important
+}
+
+.js-border-light-grey, .js-hover-border-light-grey:hover, .js-border-light-gray, .js-hover-border-light-gray:hover {
+  border-color: #f1f1f1!important
+}
+
+.js-border-dark-grey, .js-hover-border-dark-grey:hover, .js-border-dark-gray, .js-hover-border-dark-gray:hover {
+  border-color: #616161!important
+}
+
+.js-border-pale-red, .js-hover-border-pale-red:hover {
+  border-color: #ffe7e7!important
+}
+
+.js-border-pale-green, .js-hover-border-pale-green:hover {
+  border-color: #e7ffe7!important
+}
+
+.js-border-pale-yellow, .js-hover-border-pale-yellow:hover {
+  border-color: #ffffcc!important
+}
+
+.js-border-pale-blue, .js-hover-border-pale-blue:hover {
+  border-color: #e7ffff!important
+}
