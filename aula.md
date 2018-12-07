@@ -3,7 +3,7 @@ Jim Sidler - VP Engineering at Aula      body, h1 { font-family: "Raleway", sans
 Hello Aula!
 ===========
 
-I'm Jim Sidler, VP of Engineering at Aula.
+I'm Jim Sidler, VP Engineering at Aula.
 
 * * *
 
