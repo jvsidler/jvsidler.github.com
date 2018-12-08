@@ -22,4 +22,5 @@ I apologize, I tried to keep this short and I've cut so much out in an effort to
 Thank you for your time,
 
 Jim
+
 [LinkedIn](https://linkedin.com/in/jimsidler)
