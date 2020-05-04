@@ -12,6 +12,6 @@ layout: index
 <div class="js-center js-row-padding js-padding-16">
  <div class="js-quarter"><a href="http://fivethrive.com">company</a></div>
  <div class="js-quarter"><a href="http://www.linkedin.com/in/jimsidler">resume</a></div>
+ <div class="js-quarter"><a href="https://www.github.com/jvsidler">code</a></div>
  <div class="js-quarter"><a href="https://twitter.com/jvsidler">tweets</a></div>
- <div class="js-quarter"><a href="https://www.instagram.com/jvsidler">photos</a></div>
 </div>
