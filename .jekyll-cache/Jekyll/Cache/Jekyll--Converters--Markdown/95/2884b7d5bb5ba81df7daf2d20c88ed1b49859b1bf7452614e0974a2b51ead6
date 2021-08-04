@@ -1,0 +1,26 @@
+I"v<h1 class="js-jumbo js-animate-top js-center">JIM SIDLER</h1>
+<div class="js-row-padding js-padding-16">
+  <h2 class="js-center">Coaching / Mentoring / Advising</h2>
+  <p>I believe mentorship is a key component to growth. If not me, seek one out.</p>
+  <p>I am particularly versed at, but not limited to, the following topics:</p>
+  <h3>How to navigate your software development career</h3>
+  <ul>
+    <li>How to move from an individual contributor to manager.</li>
+    <li><em>Should</em> you move into a management track.</li>
+    <li>How to succeed as a first-time manager.</li>
+    <li>How to affect change as a manager.</li>
+  </ul>
+  <h3>Solopreneurship and side hustles</h3>
+  <ul>
+    <li>Idea generation and validation.</li>
+    <li>Audience discovery.</li>
+    <li>How to automate your way back to sanity.</li>
+  </ul>
+  <p>If your company provides access to <a href="https://platohq.com">Plato</a> you can request me there.</p>
+  <p>Otherwise book my Calendly for an intro call. I can't wait to hear from you.</p>
+  <!-- Calendly inline widget begin -->
+  <div class="calendly-inline-widget" data-url="https://calendly.com/jimsidler?hide_landing_page_details=1&amp;hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async=""></script>
+  <!-- Calendly inline widget end -->
+</div>
+:ET
