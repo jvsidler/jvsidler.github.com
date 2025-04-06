@@ -10,8 +10,8 @@ layout: index
 </div>
 <hr class="js-border-grey" style="margin:auto;width:60%">
 <div class="js-center js-row-padding js-padding-16">
- <div class="js-quarter"><a href="http://fivethrive.com">company</a></div>
- <div class="js-quarter"><a href="http://www.linkedin.com/in/jimsidler">network</a></div>
- <div class="js-quarter"><a href="https://twitter.com/jvsidler">social</a></div>
+ <div class="js-quarter"><a href="http://fivethrive.com">software</a></div>
+ <div class="js-quarter"><a href="http://augmatiq.com">consulting</a></div>
+ <div class="js-quarter"><a href="https://linktr.ee/jimsidler">social</a></div>
  <div class="js-quarter"><a href="https://calendly.com/jimsidler">coaching</a></div>
 </div>
